@@ -8,5 +8,7 @@ I have used PyTorch for this video classification task and did all of my work on
 I have used a model of ImageNet pretrained ResNeXt-101 for this task and finetuned the fully connected layer of the model as per the dataset requirements.
 ## Training and Testing
 I used 80% of the dataset for training and kept the rest 20% untouched for testing purposes. I extracted frames from the videos at regular intervals and trained my model on those frames for 5 epochs at a learning rate of 0.001 and using Stochastic Gradient Descent as the criterion.\
-For testing purpose, I took each video and extracted the frames of that video and fed them to my model. Then i took the mode of the predicted classes for the frames to get the maximum probabilty class for that particular video. These steps were repeated to get predicted classes for all the videos in the test set.\
+For testing purpose, I took each video and extracted the frames of that video and fed them to my model. Then i took the mode of the predicted classes for the frames to get the maximum probabilty class for that particular video. These steps were repeated to get predicted classes for all the videos in the test set.
+## Result
+On training my model for just 5 epochs, it achieved an accuracy of 91% on the train frames and an accuracy of 95% on the test videos.
 
