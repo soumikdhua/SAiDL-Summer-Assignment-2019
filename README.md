@@ -1,2 +1,2 @@
 # SAiDL-Summer-Assignment-2019
-This is the official Summer assignment for SAiDL inductions.
+These are the solutions to official Summer assignment for SAiDL inductions.
